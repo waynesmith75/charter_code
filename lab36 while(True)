@@ -1,0 +1,5 @@
+while(True):
+    mylistdict.append(get_ip_data()) # add an item to the list returned by get_ip_data() {"IP": value, "driver": value}
+    keep_going = input("\nWould you like to add another value? Enter to continue, or enter 'q' to quit: ")
+    if (keep_going.lower() == 'q'):
+        break
